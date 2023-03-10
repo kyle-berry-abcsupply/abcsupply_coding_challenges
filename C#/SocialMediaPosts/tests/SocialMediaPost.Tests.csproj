@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SocialMediaPost\SocialMediaPost.csproj" />
+    <ProjectReference Include="..\src\SocialMediaPost.csproj" />
   </ItemGroup>
 
 </Project>
