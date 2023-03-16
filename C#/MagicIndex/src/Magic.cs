@@ -1,4 +1,6 @@
-﻿namespace MagicIndex
+﻿using System.Collections.Generic;
+
+namespace MagicIndex
 {
     public class Magic
     {
