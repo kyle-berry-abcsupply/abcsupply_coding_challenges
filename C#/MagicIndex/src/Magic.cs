@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿// Global using directives for .NET 8
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
 
 namespace MagicIndex
 {
@@ -18,6 +21,7 @@ namespace MagicIndex
         */
         public bool ContainsMagicIndex(List<int> sortedArray)
         {
+            ArgumentNullException.ThrowIfNull(sortedArray); // Added for nullable reference types
             return false;
         }
     }
