@@ -1,4 +1,8 @@
-using System.Collections.Generic;
+// Global using directives for .NET 8
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace MagicIndex.Tests

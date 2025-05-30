@@ -1,4 +1,9 @@
-﻿namespace SocialMediaPost
+﻿// Global using directives for .NET 8
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+
+namespace SocialMediaPost
 {
     /*
      * A social media company needs to analyze posts.
@@ -24,6 +29,7 @@
 
         public PostAnalyzer(string post)
         {
+            ArgumentNullException.ThrowIfNull(post);
             _post = post;
         }
 
@@ -41,6 +47,7 @@
         // Determine how many times a word appears in the post, given a word
         public int GetIndividualWordCount(string word)
         {
+            ArgumentNullException.ThrowIfNull(word);
             return 0; // TODO: Your Code Here!
         }
     }

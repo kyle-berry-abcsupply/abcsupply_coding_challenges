@@ -1,4 +1,9 @@
-﻿namespace FibonacciValue
+﻿// Global using directives for .NET 8
+global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+
+namespace FibonacciValue
 {
     public class Math
     {
